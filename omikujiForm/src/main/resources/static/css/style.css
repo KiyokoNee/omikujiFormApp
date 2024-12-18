@@ -1,0 +1,71 @@
+/* General Styling */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+form, label {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+	margin: 10px;
+}
+
+p {
+	padding: 20px;
+}
+
+/* Form page styling */
+
+form {
+	padding: 20px 50px;
+	border: 2px solid black;
+}
+
+input {
+	margin: 10px 0;
+}
+
+input[type=number] {
+	width: 10%;
+}
+
+input[type=text] {
+	width: 50%;
+}
+
+#showFriend {
+	font-style: italic;
+}
+
+.center {
+	width: 50%;
+	margin: 0 auto;
+}
+
+button {
+	width: 100px;
+	margin: 0 auto;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(60, 133, 236);
+    border: 2px solid black;
+}
+
+/* Results Page Styling */
+
+#results {
+	border: 2px solid black;
+	width: 50%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: cornflowerblue;
+}
+
+.centeranchor {
+	text-align: center;
+}
